@@ -1,0 +1,32 @@
+body
+{
+    background-color: aquamarine;
+}
+#score
+{
+    font-size: 25px;
+    margin-right: 1000px;
+}
+#timer
+{
+    font-size: 25px;
+}
+#sketch_drawn
+{
+    color:black;
+    font-size: 20px;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example 
+{
+    from{box-shadow: 1px 1px 30px rgb(0, 26, 255);}
+    to{box-shadow: 1px 1px 30px rgb(130, 13, 153);}
+}
